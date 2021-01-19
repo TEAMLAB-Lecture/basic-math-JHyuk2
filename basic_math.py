@@ -93,6 +93,7 @@ def get_median(number_list):
     mid = len(number_list) // 2
     median = 0
     # 홀수인 경우
+    number_list = sorted(number_list)
     if len(number_list) % 2 :
         median = number_list[mid]
     else:
